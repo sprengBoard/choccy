@@ -15,4 +15,5 @@ The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. 
   
 ### Step 4
 >Open the Command Line Interface (CLI) on your computer, navigate to the same directory where you've saved the Choccy QMK files, and type in the following command (replacing <left/right> with the side of the Choccy you're flashing):
+
 ```qmk flash -kb choccy -km default -bl uf2-split-<left/right>```
