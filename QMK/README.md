@@ -14,7 +14,7 @@ The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. 
 >Continue to hold the thumb key down for 3-5 seconds after the controller is plugged in and the green LED on the controller illuminates. Release the thumb key; the controller should now be in bootloader mode and should be visible as a drive in your file explorer (Finder on MacOS).
   
 ### Step 4
->Open the Command Line Interface (CLI) on your computer, navigate to the same directory where you've saved the Choccy QMK files, then type in the following command:
+>Open the Command Line Interface (CLI) on your computer, navigate to the same directory where you've saved the Choccy QMK files, then run the following command:
 
 >**For left half:**
 ```qmk flash -kb choccy -km default -bl uf2-split-left```
