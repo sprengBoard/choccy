@@ -5,7 +5,7 @@ These are the default QMK files that the Choccy comes pre-flashed with. By defau
 The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. The flashing process is as follows:
 
 ### Step 1
->Ensure QMK is installed on your computer (see the [QMK Getting Started documentation](https://github.com/qmk/qmk_firmware/blob/master/docs/newbs_getting_started.md)).
+>Ensure QMK is installed and up to date on your computer (see the [QMK Getting Started documentation](https://github.com/qmk/qmk_firmware/blob/master/docs/newbs_getting_started.md)).
   
 ### Step 2
 >With the Choccy unplugged press and hold the outer thumb key on one half, then plug a USB-C data cable connected to the host computer into the controller on that half of the Choccy.
