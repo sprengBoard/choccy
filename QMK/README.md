@@ -1,6 +1,6 @@
 These are the default QMK files that the Choccy comes pre-flashed with. 
 
-### How to flash QMK to the Choccy:
+## How to flash new QMK files (such as keymaps) to the Choccy:
 
 The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. Here is a summary of the flashing process
 
