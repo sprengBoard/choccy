@@ -22,8 +22,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "quantum.h"
 
-//#define XXX KC_NO
-
 #define LAYOUT( \
 	LA1, LA2, LA3, LA4, LA5, LA6,				RA1, RA2, RA3, RA4, RA5, RA6, \
 	LB1, LB2, LB3, LB4, LB5, LB6,				RB1, RB2, RB3, RB4, RB5, RB6, \
