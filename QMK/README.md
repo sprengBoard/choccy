@@ -21,3 +21,6 @@ The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. 
 
 >**For right half:**
 ```qmk flash -kb choccy -km default -bl uf2-split-right```
+
+### Step 5
+>Repeat steps 2-4 for the other half of the Choccy
