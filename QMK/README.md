@@ -5,7 +5,6 @@ These are the default QMK files that the Choccy comes pre-flashed with.
 The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. The flashing process is as follows:
 
   ### Step 1
-  
  >Ensure QMK is installed on your computer (see the [QMK Getting Started documentation](https://github.com/qmk/qmk_firmware/blob/master/docs/newbs_getting_started.md)).
   
   **Step 2**
