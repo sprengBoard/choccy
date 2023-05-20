@@ -13,9 +13,9 @@
 
 #define SERIAL_USART_TX_PIN GP0     						// USART TX pin
 
-#define DYNAMIC_KEYMAP_LAYER_COUNT 3
-#define TAPPING_TERM 500
-#define ENCODER_RESOLUTION 2
+#define DYNAMIC_KEYMAP_LAYER_COUNT 3            // Number of keymap layers
+#define TAPPING_TERM 500                        // Duration for mod-taps
+#define ENCODER_RESOLUTION 2                    // Encoder pulses per revolution
 
 #define NO_MUSIC_MODE
 #define LAYER_STATE_16BIT
