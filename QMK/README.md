@@ -8,7 +8,7 @@ The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. 
 >Ensure QMK is installed and up to date on your computer (see the [QMK Getting Started documentation](https://github.com/qmk/qmk_firmware/blob/master/docs/newbs_getting_started.md)).
   
 ### Step 2
->With the Choccy unplugged from the computer and the TRRS from each half, press and hold the outer thumb key on one half, then plug a USB-C data cable that is connected to the host computer into the controller on that half of the Choccy.
+>With the Choccy unplugged from the computer and the TRRS from each half, press and hold the thumb key below the controller on one half, then plug a USB-C data cable that is connected to the host computer into the controller on that half of the Choccy.
   
 ### Step 3
 >Continue to hold the thumb key down for 3-5 seconds after the controller is plugged in and the green LED on the controller illuminates. Release the thumb key; the controller should now be in bootloader mode and should be visible as a drive in your file explorer (Finder on MacOS).
