@@ -1,6 +1,32 @@
 These are the default QMK files that the Choccy comes pre-flashed with. By default, the Choccy is configured for **MacOS and two encoders**; you may need to modify the keymap to suit your use.
 
-## How to flash new QMK files (such as keymaps) to the Choccy:
+# How to modify the Choccy's keymap using VIA:
+
+### Step 1
+>Open a new browser tab to go to the [VIA web application](https://usevia.app/)
+
+### Step 2
+>Click on the gear ([settings](https://usevia.app/settings)) icon at the top of the VIA page.
+
+### Step 3
+>Click the slider next to ```Show Design tab```, then click the paintbrush ([design](https://usevia.app/design)) icon that appears at the top of the page next to the gear ([settings](https://usevia.app/settings)) icon.
+
+### Step 4
+>Click the ```Load``` button next to ```Load Draft Definition``` then navigate to the ```via.json``` file in the Choccy's QMK files and click ```Open```.
+
+### Step 5
+>Choose whether or not you have encoders on your Choccy by clicking the drop-down menus next to ```Left half``` and ```Right half``` then click the keyboard ([configure](https://usevia.app/)) icon at the top of the page.
+
+### Step 6
+>Click the ```Authorize device +``` button, then select ```sprengBoard Choccy``` in the popup and click ```Connect```
+
+### Step 7
+>Modify the Choccy's keymap to your heart's content!
+
+
+
+
+# How to flash new QMK files (such as keymaps) directly to the Choccy's controllers:
 
 The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. After you've modified the QMK files and are ready to flash them to the Choccy, follow these steps:
 
