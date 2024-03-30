@@ -26,7 +26,7 @@ These are the default QMK files that the Choccy comes pre-flashed with. By defau
 
 
 
-# How to flash new QMK files (such as keymaps) directly to the Choccy's controllers:
+# How to flash new QMK firmware directly to the Choccy's controllers:
 
 The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. After you've modified the QMK files and are ready to flash them to the Choccy, follow these steps:
 
@@ -43,10 +43,10 @@ The Choccy is configured to use QMK's bootmagic lite feature for easy flashing. 
 >Open the Command Line Interface (CLI) on your computer, navigate to the same directory where you've saved the Choccy QMK files, then run the following command:
 >
 >**For left half:**
-```qmk flash -kb choccy -km default -bl uf2-split-left```
+```qmk flash -kb choccy -km via -bl uf2-split-left```
 >
 >**For right half:**
-```qmk flash -kb choccy -km default -bl uf2-split-right```
+```qmk flash -kb choccy -km via -bl uf2-split-right```
 
 ### Step 5
 >Repeat steps 2-4 for the other half of the Choccy, then enjoy typing!
